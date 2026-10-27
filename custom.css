@@ -1,0 +1,70 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#topPanel,
+#popupContainer,
+#mHideSidebar,
+#lsplitbar,
+#rsplitbar,
+#maximizePanelContainer {
+    display: none !important;
+}
+
+#outerContainer {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background: #e7e9e7;
+}
+
+#mainPanel {
+    position: relative;
+    flex: none;
+    width: min(100vw, calc(100vh * 393 / 852));
+    height: min(100vh, calc(100vw * 852 / 393));
+    overflow: hidden;
+    opacity: 1;
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 18px 56px rgba(27, 38, 42, 0.18);
+}
+
+#mainPanelContainer,
+#clipFrameScroll,
+#mainFrame {
+    position: absolute !important;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#clipFrameScroll {
+    overflow: hidden;
+}
+
+#clippingBounds,
+#mobileControlFrameContainer {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    #outerContainer {
+        background: #fff;
+    }
+
+    #mainPanel {
+        width: 100vw;
+        height: 100dvh;
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
