@@ -39,12 +39,19 @@ body {
 }
 
 #mainPanelContainer,
-#clipFrameScroll,
-#mainFrame {
+#clipFrameScroll {
     position: absolute !important;
     inset: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+#mainFrame {
+    position: absolute !important;
+    width: 540px !important;
+    height: 879px !important;
+    border: 0;
+    transform-origin: top left;
 }
 
 #clipFrameScroll {
