@@ -3,7 +3,8 @@
 A mobile app prototype that helps older adults record blood pressure, stay on top of medication and reach family quickly in an emergency. Designed, specified and prototyped end to end as a solo product design project.
 
 **Live demo:** https://1aoy596.github.io/Elderly-Health-Care-App-Prototype/  
-**Case study / slides:** [PASTE LINK HERE]
+**Case study:** [Read the full case study](https://claude.ai/artifact/CNdTVtkgVs1JQiGb9YgDta)  
+**Slides:** [View the project deck](https://claude.ai/artifact/NYcAL9gWTZRkNC3EU7saoj)
 
 ![Home screen](docs/home.png)
 
