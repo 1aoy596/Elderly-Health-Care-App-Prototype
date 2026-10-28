@@ -2,7 +2,7 @@
 
 A mobile app prototype that helps older adults record blood pressure, stay on top of medication and reach family quickly in an emergency. Designed, specified and prototyped end to end as a solo product design project.
 
-**Live demo:** https://1aoy596.github.io/Elderly-Health-Care-App-Prototype/
+**Live demo:** https://1aoy596.github.io/Elderly-Health-Care-App-Prototype/  
 **Case study / slides:** [PASTE LINK HERE]
 
 ![Home screen](docs/home.png)
@@ -28,7 +28,7 @@ I interviewed 8 older adults aged 75 to 90 (5 family members and 3 residents of 
 
 | What I observed | Design decision |
 | --- | --- |
-| The arrangements participants made were very different from the layout I had planned. [ADD ONE CONCRETE EXAMPLE: which button moved where, and why] | Changed the position and the wording of the buttons to follow how participants arranged them |
+| The arrangements participants made were very different from the layout I had planned. | Changed the position and the wording of the buttons to follow how participants arranged them |
 
 ## Features and priorities
 
