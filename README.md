@@ -11,7 +11,7 @@ A mobile app prototype that helps older adults record blood pressure, stay on to
 
 ## The problem
 
-Older adults who manage a condition such as high blood pressure have to remember several small tasks every day: measuring, recording, taking the right tablet at the right time, and telling family when something is wrong. Many health apps use small text, dense screens and a lot of typing.
+Older adults who manage a condition such as high blood pressure have to remember several small tasks every day: measuring, recording, taking the right tablet at the right time, and telling family when something is wrong. My own grandparents live with diabetes and high blood pressure and take medication every day; we do not live together, so looking after them is not always easy. Many health apps use small text, dense screens and a lot of typing.
 
 **Problem statement:** How might we help an older adult keep a daily health routine on track, with as few taps and as little typing as possible, while keeping family within one tap in an emergency?
 
@@ -19,7 +19,7 @@ Older adults who manage a condition such as high blood pressure have to remember
 
 | User | Needs |
 | --- | --- |
-| Older adult (primary) | Simple reminders, readable screens, voice instead of typing |
+| Older adult (primary) | Simple reminders, readable screens, voice instead of typing, no hunting through contacts |
 | Family caregiver (secondary) | Reassurance that medication is taken, fast contact when something is wrong |
 
 ## Research
@@ -35,9 +35,9 @@ I interviewed 8 older adults aged 75 to 90 (5 family members and 3 residents of 
 | Feature | Priority | Why |
 | --- | --- | --- |
 | Medication list with reminders and status | Must have | Missing a dose is the highest-risk failure in the daily routine |
-| Voice input for adding medication | Must have | Removes typing, the biggest barrier for the primary user |
+| Voice input for adding medication | Must have | Removes typing, which many older adults cannot do on a phone |
 | Blood pressure record and 7-day trend | Must have | Gives the user and family a simple picture of progress |
-| SOS button and emergency contact | Must have | Safety feature, always visible on Home; the specification defines a long press to avoid accidental calls |
+| SOS button and emergency contact | Must have | Safety feature, always visible on Home; contacts the emergency contacts directly, so older adults do not have to pick from the contacts list, where they often tap the wrong person; the specification defines a long press to avoid accidental calls |
 | Today's to-do list on Home | Should have | Puts the day's tasks in one place |
 | Contact family (tap to call) | Should have | Fast contact beyond emergencies |
 | Doctor appointments, device sync, caregiver view | Later | Needs integrations or a second app, so out of scope for version 1 |
@@ -60,7 +60,7 @@ The behaviour of every control is written down in the interaction specification:
 
 ## Design decisions
 
-- **Voice-first medication entry** with a three-step indicator and a Re-Enter option, because typing is the main barrier. Manual entry remains as a fallback.
+- **Voice-first medication entry** with a three-step indicator and a Re-Enter option, because many older adults cannot type on a phone. Manual entry remains as a fallback.
 - **SOS always visible on Home.** The specification defines a long press so it cannot be triggered by accident (specified, not implemented in the prototype).
 - **One hub:** every screen is one step from Home, and the back arrow always returns the user.
 
